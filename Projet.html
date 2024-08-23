@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Ethan Bracelli - Projet</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <style>
+          /* Appliquer le fond sombre à l'ensemble de la page */
+          body {
+            background-color: #121212; /* fond sombre */
+            color: #ffffff; /* texte clair */
+          }
+        
+          /* Style spécifique à l'image et au texte */
+          main {
+            padding: 50px 0; /* Espacement vertical */
+          }
+        
+          img {
+            max-width: 100%; /* Image responsive */
+            border-radius: 10px; /* Coins arrondis pour un style plus moderne */
+          }
+        
+          p {
+            font-size: 1.2rem; /* Agrandir légèrement le texte */
+            line-height: 1.6; /* Espacement des lignes pour améliorer la lisibilité */
+          }
+        
+          /* Pour les petits écrans */
+          @media (max-width: 768px) {
+            .col {
+              text-align: center; /* Centrer le texte et l'image sur les petits écrans */
+            }
+        
+            img {
+              margin-bottom: 20px; /* Espacement entre l'image et le texte sur mobile */
+            }
+          }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Ethan Bracelli</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html" aria-label="Page d'accueil">Accueil</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/Apropos.html" aria-label="Page À propos">À propos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="/Competences.html" aria-label="Page Compétences">Compétences</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="/Projet.html" aria-label="Page Projet">Projet</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="/Contact.html" aria-label="Page Contact">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+          <section id="projects" class="container py-5">
+            <h1>Projets</h1>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="/assets/2BC.png" class="card-img-top" alt="2BallChasers">
+                  <div class="card-body">
+                    <h2 class="card-title">2BallChasers</h2>
+                    <p class="card-text">2BallChasers est un serveur Discord que j'ai créé équipé d'un Bot Discord que j'ai également créé qui permettent ensemble à des joueurs du jeu vidéo "Rocket League" de profiter d'un système de matchmaking altérnatif incluant une base de donnée, un elo pour chaque joueur (système de classement inspiré des échecs), des statistiques personnels ainsi qu'un classement dynamique.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="/assets/pong.png" class="card-img-top" alt="C# Pong">
+                  <div class="card-body">
+                    <h2 class="card-title">C# Pong</h2>
+                    <p class="card-text">C# Pong est un jeu que j'ai créé en 3 jours pour un projet scolaire en utilisant la bibliothèque WinForm de C# sur Visual Studio. J'ai repris le concepte du célèbre jeu "Pong", le premier jeu vidéo. Le multijoueur est possible en permettant au joueur de gauche de controller sa plateforme avec les touches "W" et "S" alors que le joueur de droite se sert de la fléche du haut et de celle du bas. Le plus gros défi fut de trouver une formule permettant de renvoier la balle dans une certaine direction en fonction du point d'impact avec la plateforme. Exemple : la balle touche le haut de la plateforme, elle part alors vers le haut.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="/assets/Aimlab.png" class="card-img-top" alt="C# AimLab">
+                  <div class="card-body">
+                    <h2 class="card-title">C# AimLab</h2>
+                    <p class="card-text">C# AimLab est un jeu que j'ai créé en 2 jours lors de mon iniation au "Class" C# via WinForm. Le but et de cliquer sur le plus de cible (en bleu sur l'image) en un temps imparti. À chaque fois qu'un balle et toucher, une autre apparait à une coordonnée aléatoire sur l'écran du joueur. Ce petit projet m'a beaucoup aidé à comprendre le fonctionnement des "Class" en C# qui m'on ensuite également servit pour le pong et me serve encore aujourd'hui pour tout les language orienté objet.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+        </main>
+        <footer class="text-center py-4">
+          <p>&copy; 2024 Ethan Bracelli. Tous droits réservés.</p>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
